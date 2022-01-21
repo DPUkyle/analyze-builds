@@ -23,7 +23,7 @@ This tool uses version 2 of the Export API, available since Gradle Enterprise 20
 
 ## Authentication
 
-1. Create a Gradle Enterprise access key for a user with the `Export API` role as described in the [Export API Access Control] documentation.
+1. Create a Gradle Enterprise access key for a user with the `Export API` role as described in the [Export API Access Control](https://docs.gradle.com/enterprise/export-api/#access_control) documentation.
 2. Set an environment variable locally: `EXPORT_API_ACCESS_KEY` to match the newly created Gradle Enterprise access key. You can also pass it via the `--api-key` parameter.
 
 ## Invoking the tool
